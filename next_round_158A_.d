@@ -1,4 +1,5 @@
 // https://codeforces.com/problemset/problem/158/A
+// implementation, simulation
 import std.algorithm;
 import std.array;
 import std.conv;
