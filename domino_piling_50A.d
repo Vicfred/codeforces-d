@@ -8,3 +8,4 @@ import std.string;
 void main() {
     (readln.chomp.split.map!(to!int).reduce!"a * b"/2).writeln;
 }
+
