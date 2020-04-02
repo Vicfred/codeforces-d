@@ -1,4 +1,5 @@
 // https://codeforces.com/problemset/problem/282/A 
+// simulation
 import std.algorithm;
 import std.stdio;
 
