@@ -8,6 +8,8 @@ import std.stdio;
 import std.string;
 
 void main() {
+    int mod = 10^^9+7;
+
     int h, w;
     readf("%s %s\n", &h, &w);
 
@@ -64,7 +66,10 @@ void main() {
             }
         }
     }
-    BigInt ans = 1;
-    ((ans<<free)%1000000007).writeln;
+    int ans = 1;
+    for(int i = 0; i < free; i++) {
+        ans = (ans*2)%mod;
+    }
+    ans.writeln;
 }
 
